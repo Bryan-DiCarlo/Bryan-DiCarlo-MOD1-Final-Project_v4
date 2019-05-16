@@ -13,7 +13,7 @@ We will be investigating a publicly available data set containing house sale pri
 
 * Our business goal is to develop a tool that quantitatively identifies housing features most closely associated with higher housing sales prices in King County.   A Tool that can be used by sellers and agents to provide recommendations for maximizing your sale price when listing your home in King County.
 
-# Model Summary and Evaluation
+# MLR Model Summary and Evaluation
 * The summary statistics describing our final model look very much like one would want with confirmation from two models
 * R-squared value of 0.720 is substantial for the complexity of our data. This means that 72% of the variability in price can be accounted for with the five predictor variables included in our model
 * Our coefficients are all positive as would we hope in this case.  The magnitude of each coefficient represents the increase in price per unit change in the predictor if all other factors are held constant.  We were looking for features that predict increasing price as the values of the predictors increase.  A positive relationship between the two. Our coefficients indicate this relationship.
